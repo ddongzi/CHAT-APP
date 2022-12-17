@@ -22,6 +22,7 @@ export default function ChatInput({handleSendMsg}) {
       if(msg.length>0){
         handleSendMsg(msg)
       }
+      setMsg("")
     }
 
   return (
