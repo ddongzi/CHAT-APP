@@ -1,6 +1,7 @@
 server/node_modules/
 public/node_modules/
 
+server/.env
 .vscode
 
 
