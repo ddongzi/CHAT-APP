@@ -38,7 +38,7 @@ function Register() {
         email,
         password
       });
-      console.log(data);
+      // console.log(data);
       if (data.status === false) {
         toast.error(data.msg, toastOptions);
       }

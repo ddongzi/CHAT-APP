@@ -36,6 +36,7 @@ function Login() {
                 username,
                 password
             });
+            delete data.user.password;
             if(data.status===false){
               toast.error(data.msg,toastOptions);
             }
@@ -75,7 +76,7 @@ function Login() {
                         type="text"
                         placeholder="Username"
                         name="username"
-                        onChange={(e) => handleChange(e)}
+                        onChange={(e) =>{ handleChange(e)}}
                     />
                     <input
                         type="password"
