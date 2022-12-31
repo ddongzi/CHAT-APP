@@ -87,11 +87,11 @@ const Container = styled.div`
   justify-content: center;
   gap: 1rem;
   align-items: center;
-  background-color: #131324;
+  background-color: #f1f1f7;
   .container {
     height: 100vh;
     width: 100vw;
-    background-color: #00000076;
+    background-color: #fefcfc76;
     display: grid;
     grid-template-columns: 25% 75%;
 
